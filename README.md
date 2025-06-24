@@ -1,7 +1,7 @@
 # cybersec-learning
 # Cybersecurity Learning Repository
 
-Welcome! This repository tracks my journey in learning **Python**, **C++**, and **Shell scripting** for information security and forensics.
+Welcome! This repository helps you inlearning **Python**, **C++**, and **Shell scripting** for cyber security and forensics.
 
 ## Structure
 
