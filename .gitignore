@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# C++
+*.out
+*.o
+*.obj
+*.exe
+*.log
+*.dll
+*.so
+*.a
+*.dSYM/
+*.class
+
+# Shell/General
+*.swp
+*~
+*.bak
+.DS_Store
+
+# VSCode
+.vscode/
+
+# macOS
+*.DS_Store
