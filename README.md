@@ -8,7 +8,6 @@ Welcome! This repository helps you inlearning **Python**, **C++**, and **Shell s
 - [`python/`](python/) — Python scripts for security, automation, and analysis
 - [`cpp/`](cpp/) — C++ tools for performance-critical security tasks
 - [`shell/`](shell/) — Bash scripts for automation, system and forensics tasks
-- [`notes/`](notes/) — Study notes, commands, and reference material
 
 ## Study Roadmap
 
