@@ -19,32 +19,32 @@ This roadmap is helping me learn Python through practical cybersecurity projects
 
 ---
 
-## ✅ Week 1: Python Fundamentals for Security
+## Week 1: Python Fundamentals for Security
 - Input/output, conditionals, loops,functions 
 - File handling (open/read/write)
 - Exception handling
 
-## ✅ Week 2: Working with Libraries
+## Week 2: Working with Libraries
 - `os`, `sys`, `subprocess`, `socket`
 - `argparse` for command-line tools
 
-## ✅ Week 3: Networking Tools
+## Week 3: Networking Tools
 - Build a simple port scanner (TCP/UDP)
 - Host availability check with `ping`
 
-## ✅ Week 4: Password Cracking Basics
+## Week 4: Password Cracking Basics
 - Brute force ZIP file cracker using `zipfile`
 - Dictionary attack (with a wordlist)
 
-## ✅ Week 5: Log Analysis
+## Week 5: Log Analysis
 - Parse Apache access logs
 - Extract IPs, user agents, request stats
 
-## ✅ Week 6: Network Automation
+## Week 6: Network Automation
 - Automate Nmap scans (`subprocess`, `nmap` lib)
 - Send alerts (email or Discord webhook)
 
-## ✅ Week 7: Real-World Projects
+## Week 7: Real-World Projects
 - Threat intel tool (check IPs/domains with APIs)
 - Auto-block suspicious IPs via `iptables` or `firewall-cmd`
 
