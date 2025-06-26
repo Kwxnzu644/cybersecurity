@@ -12,3 +12,8 @@ This folder contains Python scripts and projects focused on information security
 
 - Each script is documented with comments.
 - See the main [README](../README.md) for learning progress.
+
+
+## ⚠️ Disclaimer
+
+This code is for educational purposes only. Do not use it in unauthorized environments.
