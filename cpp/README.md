@@ -35,3 +35,8 @@ This folder contains C++ programs and utilities aimed at high-performance securi
 - Learn about PE/ELF formats
 - Capstone disassembler basics
 
+
+## ⚠️ Disclaimer
+
+This code is for educational purposes only. Do not use it in unauthorized environments.
+
