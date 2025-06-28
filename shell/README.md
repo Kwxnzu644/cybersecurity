@@ -49,4 +49,4 @@ All scripts are written and tested on Arch Linux. My goal is to automate real-wo
 
 ## ⚠️ Disclaimer
 
-This code is for educational purposes only. Do not use it in unauthorized environments.
+This code is for educational purposes only.Do not use it in unauthorized environments.
