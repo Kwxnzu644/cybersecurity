@@ -7,7 +7,7 @@ Welcome! This is to  help you in learning **Python**, **C++**, and **Shell scrip
 - [`python/`](python/) — Python scripts for security, automation, and analysis
 - [`cpp/`](cpp/) — C++ tools for performance-critical security tasks
 - [`shell/`](shell/) — Bash scripts for automation, system and forensics tasks
-- - [`tools/`](tools/) — using tools for pentesting and  forensics 
+- [`tools/`](tools/) — using tools for pentesting and  forensics 
 
 
 ## Study Roadmap
