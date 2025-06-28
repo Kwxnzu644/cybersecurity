@@ -20,7 +20,7 @@ Welcome! This is to  help you in learning **Python**, **C++**, and **Shell scrip
    - Bash scripting, file operations
    - Forensics and system automation
 
-## How I Use This Repo
+## How TO Use This Repo
 
 - Each language has its own folder.
 - I document each project and script with comments and README files.
