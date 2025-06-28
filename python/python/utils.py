@@ -1,5 +1,5 @@
 #this is used in large projects for importing functions so it stores the functions and the are imported 
-# my_utils.py
+# utils.py
 
 def square(x):
     return x * x
