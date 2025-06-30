@@ -137,6 +137,17 @@ print(check(10))
 ```
 
 ---
+# Python Data Structures
 
-Let me know when you’re done and I’ll provide detailed answers and explanations!
-                                                                                     
+- Lists: ordered, mutable collections
+- Dictionaries: key/value pairs
+- Sets: unique, unordered elements
+- Tuples: ordered, immutable collections
+- List comprehensions for concise list creation
+
+# Python File Operations
+This is the crital part of automation and scripting
+- How to read, write, and append files
+- Working with CSV and JSON data for scripting/forensics
+
+                                                   
