@@ -96,3 +96,20 @@ print(check(-2))
 print(check(0))
 print(check(10))
 
+def multiply(a, b):
+    return a * b
+
+try:
+    a = int(input("Enter number a: "))
+    b = int(input("Enter number b: "))
+    print("Result:", multiply(a, b))
+except ValueError:
+    print("Please enter valid integers.")
+counter = 0
+
+while counter <= 7:
+    if counter %2 == 0 :
+        print("the number is even",counter)
+    else:
+        print("the number is odd",counter)
+    counter += 1
