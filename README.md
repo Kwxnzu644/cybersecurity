@@ -85,7 +85,7 @@ Welcome to my cybersecurity learning and tooling repository — built for master
 
 **Alvin Kwanzu**  
 Founder of **Secverse**  
-[Kenya 🇰🇪] | Cybersecurity Enthusiast | Offensive Security & Automation Focus  
+Kenya 🇰🇪 | Cybersecurity Enthusiast | Offensive Security & Automation Focus  
 *Certifications:* Oracle Cloud GenAI • GitHub Foundations • Mastercard Cyber Simulation  • MongoDd Associate Developer (python)
 
 ---
