@@ -19,7 +19,7 @@ Welcome to my cybersecurity learning and tooling repository — built for master
 
 ## 🧭 Study & Build Roadmap
 
-### 🐍 Python (2025 Focus)
+### 🐍 Python 
 - [ ] Learn scripting fundamentals
 - [ ] Automate security tasks (e.g., port scanner, dirbuster, log parser)
 - [ ] Work with `subprocess`, `socket`, `argparse`, `scapy`, `requests`
@@ -27,13 +27,13 @@ Welcome to my cybersecurity learning and tooling repository — built for master
 - [ ] Build phishing simulation scripts
 - [ ] Interact with Shodan, VirusTotal, or Whois APIs
 
-### 🐚 Shell Scripting (2025 Focus)
+### 🐚 Shell Scripting 
 - [ ] Learn Bash fundamentals: variables, loops, conditionals
 - [ ] Automate Linux tasks (e.g., update checks, backups, scanning wrappers)
 - [ ] Log cleanup, syslog analysis, and scheduling with cron
 - [ ] Create an all-in-one setup.sh for pentesting environments
 
-### 💣 C++ (2026–2027 Focus)
+### 💣 C++ 
 - [ ] Learn C++ syntax, pointers, memory management
 - [ ] Create low-level red team tools (e.g., simple backdoors, keyloggers)
 - [ ] Practice buffer overflows (simulated labs)
@@ -86,7 +86,7 @@ Welcome to my cybersecurity learning and tooling repository — built for master
 **Alvin Kwanzu**  
 Founder of **Secverse**  
 Kenya 🇰🇪 | Cybersecurity Enthusiast | Offensive Security & Automation Focus  
-*Certifications:* Oracle Cloud GenAI • GitHub Foundations • Mastercard Cyber Simulation  • MongoDd Associate Developer (python)
+*Certifications:* Oracle Cloud GenAI • GitHub Foundations • Mastercard Cyber Simulation  • MongoDd Associate Developer (python) • Cisco Introduction to CyberSecurity
 
 ---
 
