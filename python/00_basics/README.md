@@ -23,4 +23,4 @@ A simple command-line script that prints a message in a decorated format.
 
 **Example:**
 ```bash
-python3 hello_banner.py -m "Welcome to Secverse"
+python3 clibanner.py -m "Welcome to Secverse"
