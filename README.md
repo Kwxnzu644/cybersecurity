@@ -20,28 +20,28 @@ Welcome to my cybersecurity learning and tooling repository — built for master
 ## 🧭 Study & Build Roadmap
 
 ### 🐍 Python 
-- [ ] Learn scripting fundamentals
-- [ ] Automate security tasks (e.g., port scanner, dirbuster, log parser)
-- [ ] Work with `subprocess`, `socket`, `argparse`, `scapy`, `requests`
-- [ ] Publish tools with usage help and clean output (color/styling)
-- [ ] Build phishing simulation scripts
-- [ ] Interact with Shodan, VirusTotal, or Whois APIs
+-  Learn scripting fundamentals
+-  Automate security tasks (e.g., port scanner, dirbuster, log parser)
+-  Work with `subprocess`, `socket`, `argparse`, `scapy`, `requests`
+-  Publish tools with usage help and clean output (color/styling)
+-  Build phishing simulation scripts
+-  Interact with Shodan, VirusTotal, or Whois APIs
 
 ### 🐚 Shell Scripting 
-- [ ] Learn Bash fundamentals: variables, loops, conditionals
-- [ ] Automate Linux tasks (e.g., update checks, backups, scanning wrappers)
-- [ ] Log cleanup, syslog analysis, and scheduling with cron
-- [ ] Create an all-in-one setup.sh for pentesting environments
+-  Learn Bash fundamentals: variables, loops, conditionals
+-  Automate Linux tasks (e.g., update checks, backups, scanning wrappers)
+-  Log cleanup, syslog analysis, and scheduling with cron
+-  Create an all-in-one setup.sh for pentesting environments
 
 ### 💣 C++ 
-- [ ] Learn C++ syntax, pointers, memory management
-- [ ] Create low-level red team tools (e.g., simple backdoors, keyloggers)
-- [ ] Practice buffer overflows (simulated labs)
-- [ ] Use system libraries like `<unistd.h>`, `<sys/socket.h>`
-- [ ] Build and compile with `Makefile`
+-  Learn C++ syntax, pointers, memory management
+-  Create low-level red team tools (e.g., simple backdoors, keyloggers)
+-  Practice buffer overflows (simulated labs)
+-  Use system libraries like `<unistd.h>`, `<sys/socket.h>`
+-  Build and compile with `Makefile`
 
 ### 🧪 Tools & Labs (`tools/`)
-- [ ] Step-by-step guides and exercises for:
+-  Step-by-step guides and exercises for:
   - Nmap, Hydra, Nikto, sqlmap
   - Wireshark, TCPDump, Ettercap
   - Volatility, Autopsy (forensics)
@@ -71,7 +71,7 @@ Welcome to my cybersecurity learning and tooling repository — built for master
 
 ---
 
-## 🔗 Useful Resources (Coming Soon)
+## 🔗 Useful Resources 
 
 - GitHub Copilot usage tips
 - Oracle Cloud automation notes
@@ -90,4 +90,4 @@ Kenya 🇰🇪 | Cybersecurity Enthusiast | Offensive Security & Automation Focu
 
 ---
 
-📌 *This repo reflects a real journey — from self-study to launching a full cybersecurity company. Follow along or contribute ideas!*  
+📌 *This repo reflects a real journey . Follow along or contribute ideas!*  
