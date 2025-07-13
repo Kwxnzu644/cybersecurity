@@ -1,5 +1,5 @@
 import argparse
-import re
+import re #regular expressions to find ip adress
 from datetime import datetime
 
 # List of known suspicious IPs
@@ -31,9 +31,9 @@ def ipscan(filename, output_file="logging.txt"):
             for i, line in enumerate(lines):
                 # Find all IPs in the line using regex
                 ip_matches = re.findall(r'\d+\.\d+\.\d+\.\d+', line)
-                for match_ip in ip_matches:
-                    if match_ip in IPS:
-                        result = f"[!] Found suspicious IP {match_ip} on line {i+1}: {line.strip()}"
+                for ip in ip_matches:
+                    if ip in IPS:
+                        result = f"[!] Found suspicious IP {ip} on line {i+1}: {line.strip()}"
                         print(result)
                         log.write(result + "\n")
                         found = True
