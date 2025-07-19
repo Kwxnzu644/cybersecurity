@@ -85,8 +85,7 @@ Welcome to my cybersecurity repository — built for mastering **Python**, **C++
 
 **Alvin Kwanzu**  
 Founder of **Secverse**  
-Kenya 🇰🇪 | Cybersecurity Enthusiast | Offensive Security & Automation Focus  
-*Certifications:* Oracle Cloud GenAI • GitHub Foundations • Mastercard Cyber Simulation  • MongoDd Associate Developer (python) • Cisco Introduction to CyberSecurity
+Kenya 🇰🇪 | Cybersecurity Enthusiast | Offensive Security & Automation Focus 
 
 ---
 
