@@ -1,4 +1,3 @@
-# 02_tools
 # 🛡️ ThreatSuite: Python Red Team Scanner
 
 > A modular Python script combining **ping checks**, **common port scanning**, and **log file analysis** into one red team utility.
