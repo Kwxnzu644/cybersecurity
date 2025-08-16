@@ -1,40 +1,53 @@
 import argparse
-from datetime import datetime
+from datetime import datetime 
 import subprocess
 
 def banner(message):
     print("=" * len(message))
     print(message)
     print("=" * len(message))
-
+    
 def timestamp():
     now = datetime.now()
     return now.strftime("%H:%M:%S")
 
-def pinger(target_ip, output="file.log"):
+
+def pinger(target, output ="file.log"):
     try:
-        response = subprocess.run(["ping","-c","1",target_ip], capture_output=True, text=True)
+        response = subprocess.run(["ping","-c","1",target], capture_output=True , text=True)
         if response.returncode == 0:
-            result = f"[!] Target {target_ip} is online."
+            result = f"Target {target} is Online "
+            print(result)
         else:
-            result = f"[x] Target {target_ip} is NOT online."
-        with open(output, "a") as log:
-            log.write(f"Scan at {timestamp()} - {result}\n")
-        print(result)
+            result = f"Target {target} is Offline"
+            print(result)
+        
+        with open(output , "a") as log:
+            log.write(f"\nscan started at {timestamp()}\n")
+            log.write("\n" + result)
+              
     except Exception as e:
-        print(f"Unable to ping the target {target_ip} : {e}")
-
+        msg = f"Unable to ping target {target}"
+        print(msg)
+        
+        with open(output, "a") as log:
+            log.write("\n" + msg)
+        
+                 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Ping checker")
-    parser.add_argument("-m", "--message", default="PING CHECKER", help="DISPLAYS THE BANNER")
-    parser.add_argument("-o", "--output", default="file.log", help="SAVES THE OUTPUT")
-    parser.add_argument("-t", "--target", required=True, help="TARGETS AN IP")
-
+    parser = argparse.ArgumentParser(description="PING TARGETS")
+    parser.add_argument("-m","--message",default="PING TARGET" ,help="DISPLAYS THE BANNER")
+    parser.add_argument("-t","--target",required = True,help="INPUT THE IP ADRESS")
+    parser.add_argument("-o","--output", default="file.log",help="SAVES THE OUTPUT")
+    
     args = parser.parse_args()
-
+    
+    
     banner(args.message)
     
-    print(f"Scan started at: {timestamp()}")
-
-    if args.target:
-        pinger(args.target, args.output)
+    print(f"Scan started at : {timestamp()}")
+    
+    pinger(args.target, args.output)
+    
+            
+            
